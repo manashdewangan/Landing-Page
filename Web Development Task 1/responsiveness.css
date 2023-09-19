@@ -1,0 +1,124 @@
+@media(max-width:900px) {
+
+    /* _______________________MAIN CONTENT MEDIA QUERIES ______________________*/
+    .main_content .content {
+        width: 70%;
+        margin-left: 60px;
+    }
+
+    .main_content .content h1 {
+        font-size: 45px;
+    }
+
+    .main_content .content p {
+        font-size: 18px;
+    }
+
+    .main_content .content button {
+        font-size: 15px;
+    }
+
+    /* _______________________MAIN CONTENT MEDIA QUERIES ______________________*/
+    .container .left-contianer img {
+        width: 340px;
+    }
+    /* _______________________FOOTER MEDIA QUERIES ______________________*/
+    .footer-contents {
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-width {
+        width: 90%;
+    }
+    .bottom-footer p{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:720px) {
+
+    /* _______________________MAIN CONTENT MEDIA QUERIES ______________________*/
+    .container .left-contianer img {
+        width: 280px;
+    }
+}
+
+@media(min-width:450px) {
+    #mobile {
+        display: none;
+    }
+}
+
+@media(max-width:450px) {
+    /* _______________________HEADER MEDIA QUERIES ______________________*/
+
+    #desktop {
+        display: none;
+    }
+
+    header .logo-container {
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+
+    header .nav-container ul li {
+        margin: 0 6px;
+    }
+
+    header .nav-container ul li a {
+        color: white;
+        font-size: 15px;
+    }
+
+    /* _______________________MAIN CONTENT MEDIA QUERIES ______________________*/
+    .main_content {
+        justify-content: center;
+    }
+
+    .main_content .content {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .main_content .content h1 {
+        font-size: 35px;
+    }
+
+    .main_content .content p {
+        font-size: 14px;
+    }
+
+    /* _______________________RIGHT LEFT CONTAINER MEDIA QUERIES ______________________*/
+    .container {
+        width: 100%;
+        /* height: 85vh; */
+        flex-direction: column;
+    }
+
+    .container .left-contianer {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .container .left-contianer img {
+        width: 80vw;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.356);
+    }
+
+    .container .right-contianer {
+        width: 80%;
+    }
+
+
+    /* _______________________FOOTER MEDIA QUERIES ______________________*/
+    .footer-contents {
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-width {
+        width: 90%;
+    }
+    .bottom-footer p{
+        font-size: 12px;
+    }
+}
